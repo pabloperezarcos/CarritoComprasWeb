@@ -43,13 +43,12 @@ public class ControladorIT {
      */
     @Test
     public void testProcessRequest() throws Exception {
+        
         System.out.println("processRequest");
         HttpServletRequest request = null;
         HttpServletResponse response = null;
         Controlador instance = new Controlador();
         instance.processRequest(request, response);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
