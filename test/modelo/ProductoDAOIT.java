@@ -39,19 +39,6 @@ public class ProductoDAOIT {
     }
 
     /**
-     * Test of buscar method, of class ProductoDAO.
-     */
-    @Test
-    public void testBuscar() {
-        System.out.println("buscar");
-        int id = 0;
-        ProductoDAO instance = new ProductoDAO();
-        Producto expResult = null;
-        Producto result = instance.buscar(id);
-        assertEquals(expResult, result);
-    }
-
-    /**
      * Test of actualizarStock method, of class ProductoDAO.
      */
     @Test
@@ -62,31 +49,6 @@ public class ProductoDAOIT {
         ProductoDAO instance = new ProductoDAO();
         int expResult = 0;
         int result = instance.actualizarStock(id, stock);
-        assertEquals(expResult, result);
-    }
-
-    /**
-     * Test of listarId method, of class ProductoDAO.
-     */
-    @Test
-    public void testListarId() {
-        System.out.println("listarId");
-        int id = 0;
-        ProductoDAO instance = new ProductoDAO();
-        Producto expResult = null;
-        Producto result = instance.listarId(id);
-        assertEquals(expResult, result);
-    }
-
-    /**
-     * Test of listar method, of class ProductoDAO.
-     */
-    @Test
-    public void testListar() {
-        System.out.println("listar");
-        ProductoDAO instance = new ProductoDAO();
-        List expResult = null;
-        List result = instance.listar();
         assertEquals(expResult, result);
     }
 

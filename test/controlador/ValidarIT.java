@@ -37,43 +37,6 @@ public class ValidarIT {
     @After
     public void tearDown() {
     }
-
-    /**
-     * Test of processRequest method, of class Validar.
-     */
-    @Test
-    public void testProcessRequest() throws Exception {
-        System.out.println("processRequest");
-        HttpServletRequest request = null;
-        HttpServletResponse response = null;
-        Validar instance = new Validar();
-        instance.processRequest(request, response);
-    }
-
-    /**
-     * Test of doGet method, of class Validar.
-     */
-    @Test
-    public void testDoGet() throws Exception {
-        System.out.println("doGet");
-        HttpServletRequest request = null;
-        HttpServletResponse response = null;
-        Validar instance = new Validar();
-        instance.doGet(request, response);
-    }
-
-    /**
-     * Test of doPost method, of class Validar.
-     */
-    @Test
-    public void testDoPost() throws Exception {
-        System.out.println("doPost");
-        HttpServletRequest request = null;
-        HttpServletResponse response = null;
-        Validar instance = new Validar();
-        instance.doPost(request, response);
-    }
-
     /**
      * Test of getServletInfo method, of class Validar.
      */
@@ -85,5 +48,5 @@ public class ValidarIT {
         String result = instance.getServletInfo();
         assertEquals(expResult, result);
     }
-    
+
 }

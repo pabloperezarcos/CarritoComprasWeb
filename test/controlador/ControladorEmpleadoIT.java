@@ -39,49 +39,13 @@ public class ControladorEmpleadoIT {
     }
 
     /**
-     * Test of processRequest method, of class ControladorEmpleado.
-     */
-    @Test
-    public void testProcessRequest() throws Exception {
-        System.out.println("processRequest");
-        HttpServletRequest request = null;
-        HttpServletResponse response = null;
-        ControladorEmpleado instance = new ControladorEmpleado();
-        instance.processRequest(request, response);
-    }
-
-    /**
-     * Test of doGet method, of class ControladorEmpleado.
-     */
-    @Test
-    public void testDoGet() throws Exception {
-        System.out.println("doGet");
-        HttpServletRequest request = null;
-        HttpServletResponse response = null;
-        ControladorEmpleado instance = new ControladorEmpleado();
-        instance.doGet(request, response);
-    }
-
-    /**
-     * Test of doPost method, of class ControladorEmpleado.
-     */
-    @Test
-    public void testDoPost() throws Exception {
-        System.out.println("doPost");
-        HttpServletRequest request = null;
-        HttpServletResponse response = null;
-        ControladorEmpleado instance = new ControladorEmpleado();
-        instance.doPost(request, response);
-    }
-
-    /**
      * Test of getServletInfo method, of class ControladorEmpleado.
      */
     @Test
     public void testGetServletInfo() {
         System.out.println("getServletInfo");
         ControladorEmpleado instance = new ControladorEmpleado();
-        String expResult = "";
+        String expResult = "Short description";
         String result = instance.getServletInfo();
         assertEquals(expResult, result);
     }

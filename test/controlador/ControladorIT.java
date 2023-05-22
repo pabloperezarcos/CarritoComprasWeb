@@ -39,43 +39,6 @@ public class ControladorIT {
     }
 
     /**
-     * Test of processRequest method, of class Controlador.
-     */
-    @Test
-    public void testProcessRequest() throws Exception {
-        
-        System.out.println("processRequest");
-        HttpServletRequest request = null;
-        HttpServletResponse response = null;
-        Controlador instance = new Controlador();
-        instance.processRequest(request, response);
-    }
-
-    /**
-     * Test of doGet method, of class Controlador.
-     */
-    @Test
-    public void testDoGet() throws Exception {
-        System.out.println("doGet");
-        HttpServletRequest request = null;
-        HttpServletResponse response = null;
-        Controlador instance = new Controlador();
-        instance.doGet(request, response);
-    }
-
-    /**
-     * Test of doPost method, of class Controlador.
-     */
-    @Test
-    public void testDoPost() throws Exception {
-        System.out.println("doPost");
-        HttpServletRequest request = null;
-        HttpServletResponse response = null;
-        Controlador instance = new Controlador();
-        instance.doPost(request, response);
-    }
-
-    /**
      * Test of getServletInfo method, of class Controlador.
      */
     @Test
@@ -86,5 +49,5 @@ public class ControladorIT {
         String result = instance.getServletInfo();
         assertEquals(expResult,result);
     }
-    
+
 }

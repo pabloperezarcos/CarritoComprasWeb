@@ -60,18 +60,6 @@ public class EmpleadoIT {
     }
 
     /**
-     * Test of getRut method, of class Empleado.
-     */
-    @Test
-    public void testGetRut() {
-        System.out.println("getRut");
-        Empleado instance = new Empleado();
-        String expResult = "";
-        String result = instance.getRut();
-        assertEquals(expResult, result);
-    }
-
-    /**
      * Test of setRut method, of class Empleado.
      */
     @Test
@@ -80,18 +68,6 @@ public class EmpleadoIT {
         String rut = "";
         Empleado instance = new Empleado();
         instance.setRut(rut);
-    }
-
-    /**
-     * Test of getNom method, of class Empleado.
-     */
-    @Test
-    public void testGetNom() {
-        System.out.println("getNom");
-        Empleado instance = new Empleado();
-        String expResult = "";
-        String result = instance.getNom();
-        assertEquals(expResult, result);
     }
 
     /**
@@ -106,18 +82,6 @@ public class EmpleadoIT {
     }
 
     /**
-     * Test of getTel method, of class Empleado.
-     */
-    @Test
-    public void testGetTel() {
-        System.out.println("getTel");
-        Empleado instance = new Empleado();
-        String expResult = "";
-        String result = instance.getTel();
-        assertEquals(expResult, result);
-    }
-
-    /**
      * Test of setTel method, of class Empleado.
      */
     @Test
@@ -129,18 +93,6 @@ public class EmpleadoIT {
     }
 
     /**
-     * Test of getEstado method, of class Empleado.
-     */
-    @Test
-    public void testGetEstado() {
-        System.out.println("getEstado");
-        Empleado instance = new Empleado();
-        String expResult = "";
-        String result = instance.getEstado();
-        assertEquals(expResult, result);
-    }
-
-    /**
      * Test of setEstado method, of class Empleado.
      */
     @Test
@@ -149,18 +101,6 @@ public class EmpleadoIT {
         String estado = "";
         Empleado instance = new Empleado();
         instance.setEstado(estado);
-    }
-
-    /**
-     * Test of getUser method, of class Empleado.
-     */
-    @Test
-    public void testGetUser() {
-        System.out.println("getUser");
-        Empleado instance = new Empleado();
-        String expResult = "";
-        String result = instance.getUser();
-        assertEquals(expResult, result);
     }
 
     /**

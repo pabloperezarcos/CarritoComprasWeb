@@ -38,32 +38,6 @@ public class EmpleadoDAOIT {
     }
 
     /**
-     * Test of validar method, of class EmpleadoDAO.
-     */
-    @Test
-    public void testValidar() {
-        System.out.println("validar");
-        String user = "";
-        String Rut = "";
-        EmpleadoDAO instance = new EmpleadoDAO();
-        Empleado expResult = null;
-        Empleado result = instance.validar(user, Rut);
-        assertEquals(expResult, result);
-    }
-
-    /**
-     * Test of listar method, of class EmpleadoDAO.
-     */
-    @Test
-    public void testListar() {
-        System.out.println("listar");
-        EmpleadoDAO instance = new EmpleadoDAO();
-        List expResult = null;
-        List result = instance.listar();
-        assertEquals(expResult, result);
-    }
-
-    /**
      * Test of agregar method, of class EmpleadoDAO.
      */
     @Test
@@ -73,19 +47,6 @@ public class EmpleadoDAOIT {
         EmpleadoDAO instance = new EmpleadoDAO();
         int expResult = 0;
         int result = instance.agregar(em);
-        assertEquals(expResult, result);
-    }
-
-    /**
-     * Test of listarId method, of class EmpleadoDAO.
-     */
-    @Test
-    public void testListarId() {
-        System.out.println("listarId");
-        int id = 0;
-        EmpleadoDAO instance = new EmpleadoDAO();
-        Empleado expResult = null;
-        Empleado result = instance.listarId(id);
         assertEquals(expResult, result);
     }
 

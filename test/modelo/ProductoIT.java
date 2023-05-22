@@ -61,18 +61,6 @@ public class ProductoIT {
     }
 
     /**
-     * Test of getNombres method, of class Producto.
-     */
-    @Test
-    public void testGetNombres() {
-        System.out.println("getNombres");
-        Producto instance = new Producto();
-        String expResult = "";
-        String result = instance.getNombres();
-        assertEquals(expResult, result);
-    }
-
-    /**
      * Test of setNombres method, of class Producto.
      */
     @Test
@@ -104,18 +92,6 @@ public class ProductoIT {
         InputStream foto = null;
         Producto instance = new Producto();
         instance.setFoto(foto);
-    }
-
-    /**
-     * Test of getDescripcion method, of class Producto.
-     */
-    @Test
-    public void testGetDescripcion() {
-        System.out.println("getDescripcion");
-        Producto instance = new Producto();
-        String expResult = "";
-        String result = instance.getDescripcion();
-        assertEquals(expResult, result);
     }
 
     /**

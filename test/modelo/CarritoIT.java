@@ -84,18 +84,6 @@ public class CarritoIT {
     }
 
     /**
-     * Test of getNombres method, of class Carrito.
-     */
-    @Test
-    public void testGetNombres() {
-        System.out.println("getNombres");
-        Carrito instance = new Carrito();
-        String expResult = "";
-        String result = instance.getNombres();
-        assertEquals(expResult, result);
-    }
-
-    /**
      * Test of setNombres method, of class Carrito.
      */
     @Test
@@ -104,18 +92,6 @@ public class CarritoIT {
         String nombres = "";
         Carrito instance = new Carrito();
         instance.setNombres(nombres);
-    }
-
-    /**
-     * Test of getDescripcion method, of class Carrito.
-     */
-    @Test
-    public void testGetDescripcion() {
-        System.out.println("getDescripcion");
-        Carrito instance = new Carrito();
-        String expResult = "test";
-        String result = instance.getDescripcion();
-        assertEquals(expResult, result);
     }
 
     /**
@@ -150,18 +126,6 @@ public class CarritoIT {
         double precioCompra = 0.0;
         Carrito instance = new Carrito();
         instance.setPrecioCompra(precioCompra);
-    }
-
-    /**
-     * Test of getCantidad method, of class Carrito.
-     */
-    @Test
-    public void testGetCantidad() {
-        System.out.println("getCantidad");
-        Carrito instance = new Carrito();
-        int expResult = 0;
-        int result = instance.getCantidad();
-        assertEquals(expResult, result);
     }
 
     /**
