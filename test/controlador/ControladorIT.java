@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Pablo
+ * @author Pablo Perez
  */
 public class ControladorIT {
     
